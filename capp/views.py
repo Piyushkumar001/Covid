@@ -20,7 +20,7 @@ def blog(request):
     return render(request, 'blog.html', {})
 
 #def main(request):
-   # return render(request, 'main.html', {})
+    # return render(request, 'main.html', {})
 
 def prevention(request):
     return render(request, 'prevention.html', {})
