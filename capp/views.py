@@ -1,6 +1,7 @@
 from django.shortcuts import render
 import datetime
 from django import template
+from django.http import HttpResponseRedirect
 
 # Create your views here.
 
@@ -30,4 +31,8 @@ def single(request):
 
 def symptoms(request):
     return render(request, 'symptoms.html', {})
+
+def how_to_prevent(request):
+    return render(request, 'prevention.html', {})
+
 

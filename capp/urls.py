@@ -11,4 +11,5 @@ urlpatterns = [
     path('prevention/', prevention, name = "prevention"),
     path('single/', single, name = "single"),
     path('symptoms/', symptoms, name = "symptoms"),
+    path('how_to_prevent/', how_to_prevent, name="prevention"),
 ]
