@@ -1,7 +1,9 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+import json
 import datetime
 from django import template
 from django.http import HttpResponseRedirect
+
 
 # Create your views here.
 
